@@ -77,7 +77,7 @@
                 }
             }
 
-            return "<i " + iconColorStyle + "class='" + options.extraClasses + " " + options.prefix + " " + iconClass + " " + iconSpinClass + " " + iconColorClass + "'>"+options.markerContent+"</i>";
+            return "<i " + iconColorStyle + "class='" + options.extraClasses + " " + options.prefix + " " + iconClass + " " + iconSpinClass + " " + iconColorClass + "'></i>"+options.markerContent;
         },
 
         _setIconStyles: function (img, name) {
